@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "one",
+  "version": "0.3.0",
+  "name": "One",
+  "description": "Visual-only enhancements plus custom knife skins. No cheats.",
+  "authors": ["you"],
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.example.one.OneMod"],
+    "client": ["com.example.one.OneMod"]
+  },
+  "mixins": ["one.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}

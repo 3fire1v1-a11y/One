@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.example.one.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "ItemInHandRendererMixin",
+    "LivingEntityRendererMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
